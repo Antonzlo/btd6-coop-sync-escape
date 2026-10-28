@@ -6,7 +6,7 @@ using HarmonyLib;
 using MelonLoader;
 using Il2CppAssets.Scripts.Unity.UI_New.Coop;
 
-[assembly: MelonInfo(typeof(CoopSyncEscape.Mod), "CoopSyncEscape", "0.2.0", "anton")]
+[assembly: MelonInfo(typeof(CoopSyncEscape.Mod), CoopSyncEscape.ModHelperData.Name, CoopSyncEscape.ModHelperData.Version, CoopSyncEscape.ModHelperData.Author)]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
 
 namespace CoopSyncEscape;
